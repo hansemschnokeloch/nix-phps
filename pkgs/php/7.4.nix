@@ -5,8 +5,8 @@
 
 let
   base = mkPhp {
-    version = "7.4.33";
-    hash = "sha256-ToEXRY/lpHW/IDEocmtxvLumHEKtRj3/re5WZ6GYqYo=";
+    version = "7.4-CVE-2026-109618-109619";
+    hash = "";
   };
 in
 base.withExtensions (

@@ -148,6 +148,13 @@ let
                   "build/libtool.m4"
                 ];
               })
+              (prev.pkgs.fetchpatch {
+                url = "https://github.com/php/php-src/commit/712e60f9edfd03f0960fc4fc3c2c375f42b90aa2.patch";
+                hash = "";
+                includes = [
+                  "build/libtool.m4"
+                ];
+              })
 
               # Fix build with clang 21
               (prev.pkgs.fetchpatch {

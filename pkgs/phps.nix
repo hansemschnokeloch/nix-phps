@@ -150,7 +150,7 @@ let
               })
               (prev.pkgs.fetchpatch {
                 url = "https://github.com/php/php-src/commit/712e60f9edfd03f0960fc4fc3c2c375f42b90aa2.patch";
-                hash = "";
+                hash = "sha256-X+V8pu6W1Zs2xuDKhChDxQiE8Xe+8ehSNM9mm1d/Xkg=";
                 includes = [
                   "build/libtool.m4"
                 ];
